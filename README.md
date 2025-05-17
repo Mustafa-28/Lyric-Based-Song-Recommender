@@ -1,4 +1,9 @@
 # Lyric-Based-Song-Recommender
+## ⚠️ Dependency Notes
+For Colab users, ensure you use these specific versions to avoid conflicts:
+```bash
+!pip uninstall -y gensim numpy
+!pip install numpy==1.26.4 gensim==4.3.1 --no-cache-dir
 A Python NLP project that finds semantically similar songs by analyzing lyrical content using Word2Vec embeddings.
 
 Key Features
